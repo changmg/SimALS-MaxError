@@ -1,0 +1,221 @@
+.model absdiff
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] b[5] b[6] b[7] 
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7] 
+.names b[2] a[2] n25
+01 1
+
+.names a[7] b[7] n26
+01 1
+
+.names b[7] a[7] n27
+01 1
+
+.names a[6] b[6] n28
+01 1
+
+.names b[6] a[6] n29
+01 1
+
+.names n28 n29 n30
+00 1
+
+.names a[4] b[4] n31
+01 1
+
+.names b[4] a[4] n32
+01 1
+
+.names n31 n32 n33
+00 1
+
+.names a[5] b[5] n34
+01 1
+
+.names b[5] a[5] n35
+01 1
+
+.names n34 n35 n36
+00 1
+
+.names a[3] b[3] n37
+01 1
+
+.names b[3] a[3] n38
+01 1
+
+.names n25 n38 n39
+00 1
+
+.names n37 n39 n40
+00 1
+
+.names n33 n36 n41
+11 1
+
+.names n40 n41 n42
+01 1
+
+.names n35 n31 n43
+01 1
+
+.names n34 n43 n44
+00 1
+
+.names n42 n44 n45
+01 1
+
+.names n45 n30 n46
+01 1
+
+.names n28 n46 n47
+00 1
+
+.names n27 n47 n48
+00 1
+
+.names n26 n48 n49
+00 1
+
+.names n37 n38 n50
+00 1
+
+.names n25 n50 n51
+00 1
+
+.names n25 n50 n52
+11 1
+
+.names n51 n52 n53
+00 1
+
+.names n49 n53 n54
+00 1
+
+.names n50 n49 n55
+01 1
+
+.names n54 n55 n56
+00 0
+
+.names n37 n33 n57
+01 1
+
+.names n33 n37 n58
+01 1
+
+.names n57 n58 n59
+00 1
+
+.names n49 n59 n60
+11 1
+
+.names n33 n40 n61
+01 1
+
+.names n40 n33 n62
+01 1
+
+.names n61 n62 n63
+00 1
+
+.names n49 n63 n64
+01 1
+
+.names n60 n64 n65
+00 0
+
+.names n32 n57 n66
+00 1
+
+.names n66 n36 n67
+01 1
+
+.names n36 n66 n68
+01 1
+
+.names n67 n68 n69
+00 1
+
+.names n69 n49 n70
+01 1
+
+.names n31 n62 n71
+00 1
+
+.names n71 n36 n72
+01 1
+
+.names n36 n71 n73
+01 1
+
+.names n72 n73 n74
+00 1
+
+.names n49 n74 n75
+00 1
+
+.names n70 n75 n76
+00 1
+
+.names n30 n45 n77
+01 1
+
+.names n46 n77 n78
+00 1
+
+.names n49 n78 n79
+01 1
+
+.names n45 n67 n80
+00 1
+
+.names n80 n30 n81
+01 1
+
+.names n30 n80 n82
+01 1
+
+.names n81 n82 n83
+00 1
+
+.names n49 n83 n84
+11 1
+
+.names n79 n84 n85
+00 0
+
+.names n47 n26 n86
+01 1
+
+.names n29 n81 n87
+00 1
+
+.names n87 n27 n88
+01 1
+
+.names n86 n88 n89
+00 0
+
+.names n90
+ 0
+
+.names n91
+ 0
+
+.names n90 o[0]
+1 1
+.names n91 o[1]
+1 1
+.names n25 o[2]
+1 1
+.names n56 o[3]
+1 1
+.names n65 o[4]
+1 1
+.names n76 o[5]
+1 1
+.names n85 o[6]
+1 1
+.names n89 o[7]
+1 1
+.end

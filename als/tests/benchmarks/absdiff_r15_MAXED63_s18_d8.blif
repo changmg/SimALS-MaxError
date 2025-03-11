@@ -1,0 +1,89 @@
+.model absdiff
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] b[5] b[6] b[7] 
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7] 
+.names b[5] a[5] n25
+01 1
+
+.names a[7] b[7] n26
+01 1
+
+.names b[7] a[7] n27
+01 1
+
+.names a[6] b[6] n28
+01 1
+
+.names b[6] a[6] n29
+01 1
+
+.names n28 n29 n30
+00 1
+
+.names n25 n30 n31
+01 1
+
+.names n28 n31 n32
+00 1
+
+.names n27 n32 n33
+00 1
+
+.names n26 n33 n34
+00 1
+
+.names n30 n25 n35
+01 1
+
+.names n31 n35 n36
+00 1
+
+.names n34 n36 n37
+00 1
+
+.names n30 n34 n38
+11 1
+
+.names n37 n38 n39
+00 1
+
+.names n32 n26 n40
+01 1
+
+.names n28 n27 n41
+01 1
+
+.names n40 n41 n42
+00 0
+
+.names n43
+ 0
+
+.names n44
+ 0
+
+.names n45
+ 0
+
+.names n46
+ 0
+
+.names n47
+ 0
+
+.names n43 o[0]
+1 1
+.names n44 o[1]
+1 1
+.names n45 o[2]
+1 1
+.names n46 o[3]
+1 1
+.names n47 o[4]
+1 1
+.names n25 o[5]
+1 1
+.names n39 o[6]
+1 1
+.names n42 o[7]
+1 1
+.end

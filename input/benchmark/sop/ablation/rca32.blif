@@ -1,0 +1,525 @@
+# Benchmark "./input/benchmark/aig/rca32" written by ABC on Wed Feb 19 18:31:02 2025
+.model ./input/benchmark/aig/rca32
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_A[8] input_A[9] input_A[10] input_A[11] \
+ input_A[12] input_A[13] input_A[14] input_A[15] input_A[16] input_A[17] \
+ input_A[18] input_A[19] input_A[20] input_A[21] input_A[22] input_A[23] \
+ input_A[24] input_A[25] input_A[26] input_A[27] input_A[28] input_A[29] \
+ input_A[30] input_A[31] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7] input_B[8] input_B[9] \
+ input_B[10] input_B[11] input_B[12] input_B[13] input_B[14] input_B[15] \
+ input_B[16] input_B[17] input_B[18] input_B[19] input_B[20] input_B[21] \
+ input_B[22] input_B[23] input_B[24] input_B[25] input_B[26] input_B[27] \
+ input_B[28] input_B[29] input_B[30] input_B[31]
+.outputs output_sum[0] output_sum[1] output_sum[2] output_sum[3] \
+ output_sum[4] output_sum[5] output_sum[6] output_sum[7] output_sum[8] \
+ output_sum[9] output_sum[10] output_sum[11] output_sum[12] output_sum[13] \
+ output_sum[14] output_sum[15] output_sum[16] output_sum[17] output_sum[18] \
+ output_sum[19] output_sum[20] output_sum[21] output_sum[22] output_sum[23] \
+ output_sum[24] output_sum[25] output_sum[26] output_sum[27] output_sum[28] \
+ output_sum[29] output_sum[30] output_sum[31] output_sum[32]
+.names input_A[0] input_B[0] new_n98
+01 1
+.names input_A[0] input_B[0] new_n99
+10 1
+.names new_n98 new_n99 output_sum[0]
+00 0
+.names input_A[0] input_B[0] new_n101
+11 1
+.names input_A[1] input_B[1] new_n102
+11 1
+.names input_A[1] input_B[1] new_n103
+00 1
+.names new_n102 new_n103 new_n104
+00 1
+.names new_n101 new_n104 new_n105
+01 1
+.names new_n101 new_n104 new_n106
+10 1
+.names new_n105 new_n106 output_sum[1]
+00 0
+.names new_n101 new_n104 new_n108
+11 1
+.names new_n102 new_n108 new_n109
+00 1
+.names input_A[2] input_B[2] new_n110
+11 1
+.names input_A[2] input_B[2] new_n111
+00 1
+.names new_n110 new_n111 new_n112
+00 1
+.names new_n109 new_n112 new_n113
+11 1
+.names new_n109 new_n112 new_n114
+00 1
+.names new_n113 new_n114 output_sum[2]
+00 0
+.names new_n109 new_n112 new_n116
+01 1
+.names new_n110 new_n116 new_n117
+00 1
+.names input_A[3] input_B[3] new_n118
+11 1
+.names input_A[3] input_B[3] new_n119
+00 1
+.names new_n118 new_n119 new_n120
+00 1
+.names new_n117 new_n120 new_n121
+11 1
+.names new_n117 new_n120 new_n122
+00 1
+.names new_n121 new_n122 output_sum[3]
+00 0
+.names new_n117 new_n120 new_n124
+01 1
+.names new_n118 new_n124 new_n125
+00 1
+.names input_A[4] input_B[4] new_n126
+11 1
+.names input_A[4] input_B[4] new_n127
+00 1
+.names new_n126 new_n127 new_n128
+00 1
+.names new_n125 new_n128 new_n129
+11 1
+.names new_n125 new_n128 new_n130
+00 1
+.names new_n129 new_n130 output_sum[4]
+00 0
+.names new_n125 new_n128 new_n132
+01 1
+.names new_n126 new_n132 new_n133
+00 1
+.names input_A[5] input_B[5] new_n134
+11 1
+.names input_A[5] input_B[5] new_n135
+00 1
+.names new_n134 new_n135 new_n136
+00 1
+.names new_n133 new_n136 new_n137
+11 1
+.names new_n133 new_n136 new_n138
+00 1
+.names new_n137 new_n138 output_sum[5]
+00 0
+.names new_n133 new_n136 new_n140
+01 1
+.names new_n134 new_n140 new_n141
+00 1
+.names input_A[6] input_B[6] new_n142
+11 1
+.names input_A[6] input_B[6] new_n143
+00 1
+.names new_n142 new_n143 new_n144
+00 1
+.names new_n141 new_n144 new_n145
+11 1
+.names new_n141 new_n144 new_n146
+00 1
+.names new_n145 new_n146 output_sum[6]
+00 0
+.names new_n141 new_n144 new_n148
+01 1
+.names new_n142 new_n148 new_n149
+00 1
+.names input_A[7] input_B[7] new_n150
+11 1
+.names input_A[7] input_B[7] new_n151
+00 1
+.names new_n150 new_n151 new_n152
+00 1
+.names new_n149 new_n152 new_n153
+11 1
+.names new_n149 new_n152 new_n154
+00 1
+.names new_n153 new_n154 output_sum[7]
+00 0
+.names new_n149 new_n152 new_n156
+01 1
+.names new_n150 new_n156 new_n157
+00 1
+.names input_A[8] input_B[8] new_n158
+11 1
+.names input_A[8] input_B[8] new_n159
+00 1
+.names new_n158 new_n159 new_n160
+00 1
+.names new_n157 new_n160 new_n161
+11 1
+.names new_n157 new_n160 new_n162
+00 1
+.names new_n161 new_n162 output_sum[8]
+00 0
+.names new_n157 new_n160 new_n164
+01 1
+.names new_n158 new_n164 new_n165
+00 1
+.names input_A[9] input_B[9] new_n166
+11 1
+.names input_A[9] input_B[9] new_n167
+00 1
+.names new_n166 new_n167 new_n168
+00 1
+.names new_n165 new_n168 new_n169
+11 1
+.names new_n165 new_n168 new_n170
+00 1
+.names new_n169 new_n170 output_sum[9]
+00 0
+.names new_n165 new_n168 new_n172
+01 1
+.names new_n166 new_n172 new_n173
+00 1
+.names input_A[10] input_B[10] new_n174
+11 1
+.names input_A[10] input_B[10] new_n175
+00 1
+.names new_n174 new_n175 new_n176
+00 1
+.names new_n173 new_n176 new_n177
+11 1
+.names new_n173 new_n176 new_n178
+00 1
+.names new_n177 new_n178 output_sum[10]
+00 0
+.names new_n173 new_n176 new_n180
+01 1
+.names new_n174 new_n180 new_n181
+00 1
+.names input_A[11] input_B[11] new_n182
+11 1
+.names input_A[11] input_B[11] new_n183
+00 1
+.names new_n182 new_n183 new_n184
+00 1
+.names new_n181 new_n184 new_n185
+11 1
+.names new_n181 new_n184 new_n186
+00 1
+.names new_n185 new_n186 output_sum[11]
+00 0
+.names new_n181 new_n184 new_n188
+01 1
+.names new_n182 new_n188 new_n189
+00 1
+.names input_A[12] input_B[12] new_n190
+11 1
+.names input_A[12] input_B[12] new_n191
+00 1
+.names new_n190 new_n191 new_n192
+00 1
+.names new_n189 new_n192 new_n193
+11 1
+.names new_n189 new_n192 new_n194
+00 1
+.names new_n193 new_n194 output_sum[12]
+00 0
+.names new_n189 new_n192 new_n196
+01 1
+.names new_n190 new_n196 new_n197
+00 1
+.names input_A[13] input_B[13] new_n198
+11 1
+.names input_A[13] input_B[13] new_n199
+00 1
+.names new_n198 new_n199 new_n200
+00 1
+.names new_n197 new_n200 new_n201
+11 1
+.names new_n197 new_n200 new_n202
+00 1
+.names new_n201 new_n202 output_sum[13]
+00 0
+.names new_n197 new_n200 new_n204
+01 1
+.names new_n198 new_n204 new_n205
+00 1
+.names input_A[14] input_B[14] new_n206
+11 1
+.names input_A[14] input_B[14] new_n207
+00 1
+.names new_n206 new_n207 new_n208
+00 1
+.names new_n205 new_n208 new_n209
+11 1
+.names new_n205 new_n208 new_n210
+00 1
+.names new_n209 new_n210 output_sum[14]
+00 0
+.names new_n205 new_n208 new_n212
+01 1
+.names new_n206 new_n212 new_n213
+00 1
+.names input_A[15] input_B[15] new_n214
+11 1
+.names input_A[15] input_B[15] new_n215
+00 1
+.names new_n214 new_n215 new_n216
+00 1
+.names new_n213 new_n216 new_n217
+11 1
+.names new_n213 new_n216 new_n218
+00 1
+.names new_n217 new_n218 output_sum[15]
+00 0
+.names new_n213 new_n216 new_n220
+01 1
+.names new_n214 new_n220 new_n221
+00 1
+.names input_A[16] input_B[16] new_n222
+11 1
+.names input_A[16] input_B[16] new_n223
+00 1
+.names new_n222 new_n223 new_n224
+00 1
+.names new_n221 new_n224 new_n225
+11 1
+.names new_n221 new_n224 new_n226
+00 1
+.names new_n225 new_n226 output_sum[16]
+00 0
+.names new_n221 new_n224 new_n228
+01 1
+.names new_n222 new_n228 new_n229
+00 1
+.names input_A[17] input_B[17] new_n230
+11 1
+.names input_A[17] input_B[17] new_n231
+00 1
+.names new_n230 new_n231 new_n232
+00 1
+.names new_n229 new_n232 new_n233
+11 1
+.names new_n229 new_n232 new_n234
+00 1
+.names new_n233 new_n234 output_sum[17]
+00 0
+.names new_n229 new_n232 new_n236
+01 1
+.names new_n230 new_n236 new_n237
+00 1
+.names input_A[18] input_B[18] new_n238
+11 1
+.names input_A[18] input_B[18] new_n239
+00 1
+.names new_n238 new_n239 new_n240
+00 1
+.names new_n237 new_n240 new_n241
+11 1
+.names new_n237 new_n240 new_n242
+00 1
+.names new_n241 new_n242 output_sum[18]
+00 0
+.names new_n237 new_n240 new_n244
+01 1
+.names new_n238 new_n244 new_n245
+00 1
+.names input_A[19] input_B[19] new_n246
+11 1
+.names input_A[19] input_B[19] new_n247
+00 1
+.names new_n246 new_n247 new_n248
+00 1
+.names new_n245 new_n248 new_n249
+11 1
+.names new_n245 new_n248 new_n250
+00 1
+.names new_n249 new_n250 output_sum[19]
+00 0
+.names new_n245 new_n248 new_n252
+01 1
+.names new_n246 new_n252 new_n253
+00 1
+.names input_A[20] input_B[20] new_n254
+11 1
+.names input_A[20] input_B[20] new_n255
+00 1
+.names new_n254 new_n255 new_n256
+00 1
+.names new_n253 new_n256 new_n257
+11 1
+.names new_n253 new_n256 new_n258
+00 1
+.names new_n257 new_n258 output_sum[20]
+00 0
+.names new_n253 new_n256 new_n260
+01 1
+.names new_n254 new_n260 new_n261
+00 1
+.names input_A[21] input_B[21] new_n262
+11 1
+.names input_A[21] input_B[21] new_n263
+00 1
+.names new_n262 new_n263 new_n264
+00 1
+.names new_n261 new_n264 new_n265
+11 1
+.names new_n261 new_n264 new_n266
+00 1
+.names new_n265 new_n266 output_sum[21]
+00 0
+.names new_n261 new_n264 new_n268
+01 1
+.names new_n262 new_n268 new_n269
+00 1
+.names input_A[22] input_B[22] new_n270
+11 1
+.names input_A[22] input_B[22] new_n271
+00 1
+.names new_n270 new_n271 new_n272
+00 1
+.names new_n269 new_n272 new_n273
+11 1
+.names new_n269 new_n272 new_n274
+00 1
+.names new_n273 new_n274 output_sum[22]
+00 0
+.names new_n269 new_n272 new_n276
+01 1
+.names new_n270 new_n276 new_n277
+00 1
+.names input_A[23] input_B[23] new_n278
+11 1
+.names input_A[23] input_B[23] new_n279
+00 1
+.names new_n278 new_n279 new_n280
+00 1
+.names new_n277 new_n280 new_n281
+11 1
+.names new_n277 new_n280 new_n282
+00 1
+.names new_n281 new_n282 output_sum[23]
+00 0
+.names new_n277 new_n280 new_n284
+01 1
+.names new_n278 new_n284 new_n285
+00 1
+.names input_A[24] input_B[24] new_n286
+11 1
+.names input_A[24] input_B[24] new_n287
+00 1
+.names new_n286 new_n287 new_n288
+00 1
+.names new_n285 new_n288 new_n289
+11 1
+.names new_n285 new_n288 new_n290
+00 1
+.names new_n289 new_n290 output_sum[24]
+00 0
+.names new_n285 new_n288 new_n292
+01 1
+.names new_n286 new_n292 new_n293
+00 1
+.names input_A[25] input_B[25] new_n294
+11 1
+.names input_A[25] input_B[25] new_n295
+00 1
+.names new_n294 new_n295 new_n296
+00 1
+.names new_n293 new_n296 new_n297
+11 1
+.names new_n293 new_n296 new_n298
+00 1
+.names new_n297 new_n298 output_sum[25]
+00 0
+.names new_n293 new_n296 new_n300
+01 1
+.names new_n294 new_n300 new_n301
+00 1
+.names input_A[26] input_B[26] new_n302
+11 1
+.names input_A[26] input_B[26] new_n303
+00 1
+.names new_n302 new_n303 new_n304
+00 1
+.names new_n301 new_n304 new_n305
+11 1
+.names new_n301 new_n304 new_n306
+00 1
+.names new_n305 new_n306 output_sum[26]
+00 0
+.names new_n301 new_n304 new_n308
+01 1
+.names new_n302 new_n308 new_n309
+00 1
+.names input_A[27] input_B[27] new_n310
+11 1
+.names input_A[27] input_B[27] new_n311
+00 1
+.names new_n310 new_n311 new_n312
+00 1
+.names new_n309 new_n312 new_n313
+11 1
+.names new_n309 new_n312 new_n314
+00 1
+.names new_n313 new_n314 output_sum[27]
+00 0
+.names new_n309 new_n312 new_n316
+01 1
+.names new_n310 new_n316 new_n317
+00 1
+.names input_A[28] input_B[28] new_n318
+11 1
+.names input_A[28] input_B[28] new_n319
+00 1
+.names new_n318 new_n319 new_n320
+00 1
+.names new_n317 new_n320 new_n321
+11 1
+.names new_n317 new_n320 new_n322
+00 1
+.names new_n321 new_n322 output_sum[28]
+00 0
+.names new_n317 new_n320 new_n324
+01 1
+.names new_n318 new_n324 new_n325
+00 1
+.names input_A[29] input_B[29] new_n326
+11 1
+.names input_A[29] input_B[29] new_n327
+00 1
+.names new_n326 new_n327 new_n328
+00 1
+.names new_n325 new_n328 new_n329
+11 1
+.names new_n325 new_n328 new_n330
+00 1
+.names new_n329 new_n330 output_sum[29]
+00 0
+.names new_n325 new_n328 new_n332
+01 1
+.names new_n326 new_n332 new_n333
+00 1
+.names input_A[30] input_B[30] new_n334
+11 1
+.names input_A[30] input_B[30] new_n335
+00 1
+.names new_n334 new_n335 new_n336
+00 1
+.names new_n333 new_n336 new_n337
+11 1
+.names new_n333 new_n336 new_n338
+00 1
+.names new_n337 new_n338 output_sum[30]
+00 0
+.names new_n333 new_n336 new_n340
+01 1
+.names new_n334 new_n340 new_n341
+00 1
+.names input_A[31] input_B[31] new_n342
+11 1
+.names input_A[31] input_B[31] new_n343
+00 1
+.names new_n342 new_n343 new_n344
+00 1
+.names new_n341 new_n344 new_n345
+11 1
+.names new_n341 new_n344 new_n346
+00 1
+.names new_n345 new_n346 output_sum[31]
+00 0
+.names new_n341 new_n344 new_n348
+01 1
+.names new_n342 new_n348 output_sum[32]
+00 0
+.end

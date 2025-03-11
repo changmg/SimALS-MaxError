@@ -1,0 +1,152 @@
+.model absdiff
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] b[5] b[6] b[7] 
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7] 
+.names a[4] b[4] n25
+01 1
+
+.names b[4] a[4] n26
+01 1
+
+.names n25 n26 n27
+00 0
+
+.names a[7] b[7] n28
+01 1
+
+.names b[7] a[7] n29
+01 1
+
+.names a[6] b[6] n30
+01 1
+
+.names b[6] a[6] n31
+01 1
+
+.names n30 n31 n32
+00 1
+
+.names a[5] b[5] n33
+01 1
+
+.names b[5] a[5] n34
+01 1
+
+.names n26 n34 n35
+00 1
+
+.names n33 n35 n36
+00 1
+
+.names n36 n32 n37
+01 1
+
+.names n30 n37 n38
+00 1
+
+.names n29 n38 n39
+00 1
+
+.names n28 n39 n40
+00 1
+
+.names n33 n34 n41
+00 1
+
+.names n25 n41 n42
+00 1
+
+.names n25 n41 n43
+11 1
+
+.names n42 n43 n44
+00 1
+
+.names n40 n44 n45
+11 1
+
+.names n26 n41 n46
+00 1
+
+.names n26 n41 n47
+11 1
+
+.names n46 n47 n48
+00 1
+
+.names n40 n48 n49
+01 1
+
+.names n45 n49 n50
+00 1
+
+.names n25 n33 n51
+00 1
+
+.names n34 n51 n52
+00 1
+
+.names n52 n32 n53
+01 1
+
+.names n32 n52 n54
+01 1
+
+.names n53 n54 n55
+00 1
+
+.names n55 n40 n56
+01 1
+
+.names n32 n36 n57
+01 1
+
+.names n37 n57 n58
+00 1
+
+.names n40 n58 n59
+00 1
+
+.names n56 n59 n60
+00 1
+
+.names n38 n28 n61
+01 1
+
+.names n31 n53 n62
+00 1
+
+.names n62 n29 n63
+01 1
+
+.names n61 n63 n64
+00 0
+
+.names n65
+ 0
+
+.names n66
+ 0
+
+.names n67
+ 0
+
+.names n68
+ 0
+
+.names n65 o[0]
+1 1
+.names n66 o[1]
+1 1
+.names n67 o[2]
+1 1
+.names n68 o[3]
+1 1
+.names n27 o[4]
+1 1
+.names n50 o[5]
+1 1
+.names n60 o[6]
+1 1
+.names n64 o[7]
+1 1
+.end

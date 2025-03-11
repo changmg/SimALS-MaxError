@@ -1,0 +1,338 @@
+.model absdiff
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] b[5] b[6] b[7] 
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7] 
+.names b[0] a[0] n25
+01 1
+
+.names a[0] b[0] n26
+01 1
+
+.names n25 n26 n27
+00 0
+
+.names a[7] b[7] n28
+01 1
+
+.names b[7] a[7] n29
+01 1
+
+.names a[6] b[6] n30
+01 1
+
+.names b[6] a[6] n31
+01 1
+
+.names n30 n31 n32
+00 1
+
+.names a[4] b[4] n33
+01 1
+
+.names b[4] a[4] n34
+01 1
+
+.names n33 n34 n35
+00 1
+
+.names a[5] b[5] n36
+01 1
+
+.names b[5] a[5] n37
+01 1
+
+.names n36 n37 n38
+00 1
+
+.names n35 n38 n39
+11 1
+
+.names a[1] b[1] n40
+01 1
+
+.names b[1] a[1] n41
+01 1
+
+.names n40 n41 n42
+00 1
+
+.names n25 n42 n43
+01 1
+
+.names n40 n43 n44
+00 1
+
+.names a[2] b[2] n45
+01 1
+
+.names b[2] a[2] n46
+01 1
+
+.names n45 n46 n47
+00 1
+
+.names a[3] b[3] n48
+01 1
+
+.names b[3] a[3] n49
+01 1
+
+.names n48 n49 n50
+00 1
+
+.names n47 n50 n51
+11 1
+
+.names n44 n51 n52
+01 1
+
+.names n49 n45 n53
+01 1
+
+.names n48 n53 n54
+00 1
+
+.names n52 n54 n55
+01 1
+
+.names n55 n39 n56
+01 1
+
+.names n37 n33 n57
+01 1
+
+.names n36 n57 n58
+00 1
+
+.names n56 n58 n59
+01 1
+
+.names n59 n32 n60
+01 1
+
+.names n30 n60 n61
+00 1
+
+.names n29 n61 n62
+00 1
+
+.names n28 n62 n63
+00 1
+
+.names n26 n42 n64
+01 1
+
+.names n42 n26 n65
+01 1
+
+.names n64 n65 n66
+00 1
+
+.names n63 n66 n67
+11 1
+
+.names n42 n25 n68
+01 1
+
+.names n43 n68 n69
+00 1
+
+.names n63 n69 n70
+01 1
+
+.names n67 n70 n71
+00 0
+
+.names n41 n64 n72
+00 1
+
+.names n72 n47 n73
+01 1
+
+.names n47 n72 n74
+01 1
+
+.names n73 n74 n75
+00 1
+
+.names n63 n75 n76
+11 1
+
+.names n44 n47 n77
+01 1
+
+.names n47 n44 n78
+01 1
+
+.names n77 n78 n79
+00 1
+
+.names n63 n79 n80
+01 1
+
+.names n76 n80 n81
+00 0
+
+.names n45 n77 n82
+00 1
+
+.names n82 n50 n83
+01 1
+
+.names n50 n82 n84
+01 1
+
+.names n83 n84 n85
+00 1
+
+.names n63 n85 n86
+01 1
+
+.names n46 n73 n87
+00 1
+
+.names n50 n87 n88
+01 1
+
+.names n87 n50 n89
+01 1
+
+.names n88 n89 n90
+00 1
+
+.names n63 n90 n91
+11 1
+
+.names n86 n91 n92
+00 0
+
+.names n55 n35 n93
+01 1
+
+.names n35 n55 n94
+01 1
+
+.names n93 n94 n95
+00 1
+
+.names n63 n95 n96
+01 1
+
+.names n48 n87 n97
+00 1
+
+.names n49 n97 n98
+00 1
+
+.names n98 n35 n99
+01 1
+
+.names n35 n98 n100
+01 1
+
+.names n99 n100 n101
+00 1
+
+.names n63 n101 n102
+11 1
+
+.names n96 n102 n103
+00 0
+
+.names n34 n99 n104
+00 1
+
+.names n38 n104 n105
+00 1
+
+.names n38 n104 n106
+11 1
+
+.names n105 n106 n107
+00 1
+
+.names n63 n107 n108
+11 1
+
+.names n33 n93 n109
+00 1
+
+.names n38 n109 n110
+00 1
+
+.names n38 n109 n111
+11 1
+
+.names n110 n111 n112
+00 1
+
+.names n63 n112 n113
+01 1
+
+.names n108 n113 n114
+00 1
+
+.names n32 n59 n115
+01 1
+
+.names n60 n115 n116
+00 1
+
+.names n63 n116 n117
+01 1
+
+.names n98 n39 n118
+01 1
+
+.names n36 n34 n119
+01 1
+
+.names n37 n119 n120
+00 1
+
+.names n118 n120 n121
+01 1
+
+.names n121 n32 n122
+01 1
+
+.names n32 n121 n123
+01 1
+
+.names n122 n123 n124
+00 1
+
+.names n63 n124 n125
+11 1
+
+.names n117 n125 n126
+00 0
+
+.names n61 n28 n127
+01 1
+
+.names n31 n122 n128
+00 1
+
+.names n128 n29 n129
+01 1
+
+.names n127 n129 n130
+00 0
+
+.names n27 o[0]
+1 1
+.names n71 o[1]
+1 1
+.names n81 o[2]
+1 1
+.names n92 o[3]
+1 1
+.names n103 o[4]
+1 1
+.names n114 o[5]
+1 1
+.names n126 o[6]
+1 1
+.names n130 o[7]
+1 1
+.end

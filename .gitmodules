@@ -1,0 +1,8 @@
+[submodule "cryptominisat"]
+	path = cryptominisat
+	url = git@github.com:changmg/cryptominisat.git
+	branch = v20241220
+[submodule "abc"]
+	path = abc
+	url = git@github.com:changmg/abc.git
+	branch = abc-20240414

@@ -1,0 +1,134 @@
+# Benchmark "./input/benchmark/aig/add8u_0FP" written by ABC on Fri Feb 21 19:03:36 2025
+.model add8u_0FP
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6] B[7]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8]
+.names A[0] B[0] new_n26
+01 1
+.names A[0] B[0] new_n27
+10 1
+.names new_n26 new_n27 O[0]
+00 0
+.names A[0] B[0] new_n29
+11 1
+.names A[1] B[1] new_n30
+10 1
+.names A[1] B[1] new_n31
+01 1
+.names new_n30 new_n31 new_n32
+00 1
+.names new_n29 new_n32 new_n33
+11 1
+.names new_n29 new_n32 new_n34
+00 1
+.names new_n33 new_n34 O[1]
+00 0
+.names A[1] B[1] new_n36
+11 1
+.names A[1] B[1] new_n37
+00 1
+.names new_n29 new_n37 new_n38
+10 1
+.names new_n36 new_n38 new_n39
+00 1
+.names A[2] B[2] new_n40
+01 1
+.names A[2] B[2] new_n41
+10 1
+.names new_n40 new_n41 new_n42
+00 1
+.names new_n39 new_n42 new_n43
+01 1
+.names new_n39 new_n42 new_n44
+10 1
+.names new_n43 new_n44 O[2]
+00 0
+.names A[2] B[2] new_n46
+11 1
+.names A[2] B[2] new_n47
+00 1
+.names new_n39 new_n47 new_n48
+00 1
+.names new_n46 new_n48 new_n49
+00 1
+.names A[3] B[3] new_n50
+11 1
+.names A[3] B[3] new_n51
+00 1
+.names new_n50 new_n51 new_n52
+00 1
+.names new_n49 new_n52 new_n53
+11 1
+.names new_n49 new_n52 new_n54
+00 1
+.names new_n53 new_n54 O[3]
+00 0
+.names new_n49 new_n51 new_n56
+00 1
+.names new_n50 new_n56 new_n57
+00 1
+.names A[4] B[4] new_n58
+11 1
+.names A[4] B[4] new_n59
+00 1
+.names new_n58 new_n59 new_n60
+00 1
+.names new_n57 new_n60 new_n61
+11 1
+.names new_n57 new_n60 new_n62
+00 1
+.names new_n61 new_n62 O[4]
+00 0
+.names new_n57 new_n60 new_n64
+01 1
+.names new_n58 new_n64 new_n65
+00 1
+.names A[5] B[5] new_n66
+11 1
+.names A[5] B[5] new_n67
+00 1
+.names new_n66 new_n67 new_n68
+00 1
+.names new_n65 new_n68 new_n69
+11 1
+.names new_n65 new_n68 new_n70
+00 1
+.names new_n69 new_n70 O[5]
+00 0
+.names new_n65 new_n67 new_n72
+00 1
+.names new_n66 new_n72 new_n73
+00 1
+.names A[6] B[6] new_n74
+11 1
+.names A[6] B[6] new_n75
+00 1
+.names new_n74 new_n75 new_n76
+00 1
+.names new_n73 new_n76 new_n77
+11 1
+.names new_n73 new_n76 new_n78
+00 1
+.names new_n77 new_n78 O[6]
+00 0
+.names new_n73 new_n75 new_n80
+00 1
+.names new_n74 new_n80 new_n81
+00 1
+.names A[7] B[7] new_n82
+11 1
+.names A[7] B[7] new_n83
+00 1
+.names new_n82 new_n83 new_n84
+00 1
+.names new_n81 new_n84 new_n85
+11 1
+.names new_n81 new_n84 new_n86
+00 1
+.names new_n85 new_n86 O[7]
+00 0
+.names new_n81 new_n84 new_n88
+01 1
+.names new_n82 new_n88 O[8]
+00 0
+.end

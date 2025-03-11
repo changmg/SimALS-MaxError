@@ -1,0 +1,77 @@
+# Benchmark "(null)" written by ABC on Mon Mar  3 15:28:00 2025
+.model (null)
+.inputs G1gat G8gat G15gat G22gat G29gat G36gat G43gat G50gat G57gat G64gat \
+ G71gat G78gat G85gat G92gat G99gat G106gat G113gat G120gat G127gat G134gat \
+ G141gat G148gat G155gat G162gat G169gat G176gat G183gat G190gat G197gat \
+ G204gat G211gat G218gat G225gat G226gat G227gat G228gat G229gat G230gat \
+ G231gat G232gat G233gat
+.outputs G1324gat G1325gat G1326gat G1327gat G1328gat G1329gat G1330gat \
+ G1331gat G1332gat G1333gat G1334gat G1335gat G1336gat G1337gat G1338gat \
+ G1339gat G1340gat G1341gat G1342gat G1343gat G1344gat G1345gat G1346gat \
+ G1347gat G1348gat G1349gat G1350gat G1351gat G1352gat G1353gat G1354gat \
+ G1355gat
+.names G1338gat
+ 0
+.names G85gat G1336gat
+0 1
+.names G1gat G1324gat
+1 1
+.names G8gat G1325gat
+1 1
+.names G15gat G1326gat
+1 1
+.names G22gat G1327gat
+1 1
+.names G29gat G1328gat
+1 1
+.names G36gat G1329gat
+1 1
+.names G43gat G1330gat
+1 1
+.names G50gat G1331gat
+1 1
+.names G57gat G1332gat
+1 1
+.names G64gat G1333gat
+1 1
+.names G71gat G1334gat
+1 1
+.names G78gat G1335gat
+1 1
+.names G92gat G1337gat
+1 1
+.names G106gat G1339gat
+1 1
+.names G113gat G1340gat
+1 1
+.names G120gat G1341gat
+1 1
+.names G127gat G1342gat
+1 1
+.names G134gat G1343gat
+1 1
+.names G141gat G1344gat
+1 1
+.names G148gat G1345gat
+1 1
+.names G155gat G1346gat
+1 1
+.names G162gat G1347gat
+1 1
+.names G169gat G1348gat
+1 1
+.names G176gat G1349gat
+1 1
+.names G183gat G1350gat
+1 1
+.names G190gat G1351gat
+1 1
+.names G197gat G1352gat
+1 1
+.names G204gat G1353gat
+1 1
+.names G211gat G1354gat
+1 1
+.names G218gat G1355gat
+1 1
+.end
